@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BazaModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="BazaModelStoreContainer">
+          <EntitySet Name="bufor" EntityType="BazaModel.Store.bufor" store:Type="Tables" />
+          <EntitySet Name="dok" EntityType="BazaModel.Store.dok" store:Type="Tables" />
+          <EntitySet Name="edibody" EntityType="BazaModel.Store.edibody" store:Type="Tables" />
+          <EntitySet Name="ediend" EntityType="BazaModel.Store.ediend" store:Type="Tables" />
+          <EntitySet Name="edihead" EntityType="BazaModel.Store.edihead" store:Type="Tables" />
+          <EntitySet Name="fedibody" EntityType="BazaModel.Store.fedibody" store:Type="Tables" />
+          <EntitySet Name="fediend" EntityType="BazaModel.Store.fediend" store:Type="Tables" />
+          <EntitySet Name="fedihead" EntityType="BazaModel.Store.fedihead" store:Type="Tables" />
+          <EntitySet Name="magazyn" EntityType="BazaModel.Store.magazyn" store:Type="Tables" />
+          <EntitySet Name="opcje" EntityType="BazaModel.Store.opcje" store:Type="Tables" />
+          <EntitySet Name="stany" EntityType="BazaModel.Store.stany" store:Type="Tables" />
+        </EntityContainer>
+        <EntityType Name="bufor">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="dokid" Type="int" />
+          <Property Name="kod" Type="nvarchar" MaxLength="15" />
+          <Property Name="nazwa" Type="nvarchar" MaxLength="100" />
+          <Property Name="cenazk" Type="nvarchar" MaxLength="10" />
+          <Property Name="ilosc" Type="numeric" Precision="10" Scale="3" />
+          <Property Name="stan" Type="nvarchar" MaxLength="10" />
+          <Property Name="cenasp" Type="nvarchar" MaxLength="10" />
+          <Property Name="vat" Type="nvarchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="dok">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="nazwadok" Type="nvarchar" MaxLength="120" />
+          <Property Name="typ" Type="nvarchar" MaxLength="10" />
+          <Property Name="data" Type="datetime" />
+          <Property Name="device" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="edibody">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NrDok" Type="nvarchar" MaxLength="30" />
+          <Property Name="Nazwa" Type="nvarchar" MaxLength="120" />
+          <Property Name="kod" Type="nvarchar" MaxLength="20" />
+          <Property Name="Vat" Type="nvarchar" MaxLength="7" />
+          <Property Name="Jm" Type="nvarchar" MaxLength="7" />
+          <Property Name="Asortyment" Type="nvarchar" MaxLength="120" />
+          <Property Name="Sww" Type="nvarchar" MaxLength="30" />
+          <Property Name="PKWiU" Type="nvarchar" MaxLength="30" />
+          <Property Name="Ilosc" Type="nvarchar" MaxLength="10" />
+          <Property Name="Cena" Type="nvarchar" MaxLength="10" />
+          <Property Name="Wartosc" Type="nvarchar" MaxLength="10" />
+          <Property Name="IleWOpak" Type="nvarchar" MaxLength="10" />
+          <Property Name="CenaSp" Type="nvarchar" MaxLength="10" />
+          <Property Name="status" Type="nvarchar" MaxLength="20" />
+          <Property Name="complete" Type="bit" />
+        </EntityType>
+        <EntityType Name="ediend">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NrDok" Type="nvarchar" MaxLength="30" />
+          <Property Name="Vat" Type="nvarchar" MaxLength="20" />
+          <Property Name="SumaNet" Type="nvarchar" MaxLength="20" />
+          <Property Name="SumaVat" Type="nvarchar" MaxLength="20" />
+          <Property Name="status" Type="nvarchar" MaxLength="20" />
+          <Property Name="complete" Type="bit" />
+        </EntityType>
+        <EntityType Name="edihead">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FileName" Type="nvarchar" MaxLength="40" />
+          <Property Name="TypPolskichLiter" Type="nvarchar" MaxLength="20" />
+          <Property Name="TypDok" Type="nvarchar" MaxLength="20" />
+          <Property Name="NrDok" Type="nvarchar" MaxLength="30" />
+          <Property Name="Data" Type="nvarchar" MaxLength="30" />
+          <Property Name="DataRealizacji" Type="nvarchar" MaxLength="30" />
+          <Property Name="Magazyn" Type="nvarchar" MaxLength="30" />
+          <Property Name="SposobPlatn" Type="nvarchar" MaxLength="10" />
+          <Property Name="TerminPlatn" Type="nvarchar" MaxLength="10" />
+          <Property Name="IndeksCentralny" Type="nvarchar" MaxLength="10" />
+          <Property Name="NazwaWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="AdresWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="KodWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="MiastoWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="UlicaWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="NIPWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="BankWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="KontoWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="TelefonWystawcy" Type="nvarchar" MaxLength="30" />
+          <Property Name="NrWystawcyWSieciSklepow" Type="nvarchar" MaxLength="20" />
+          <Property Name="NazwaOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="AdresOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="KodOdbiorcy" Type="nvarchar" MaxLength="20" />
+          <Property Name="MiastoOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="UlicaOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="NIPOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="BankOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="KontoOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="TelefonOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="NrOdbiorcyWSieciSklepow" Type="nvarchar" MaxLength="20" />
+          <Property Name="DoZaplaty" Type="nvarchar" MaxLength="20" />
+          <Property Name="status" Type="nvarchar" MaxLength="20" />
+          <Property Name="complete" Type="bit" />
+        </EntityType>
+        <EntityType Name="fedibody">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NrDok" Type="nvarchar" MaxLength="30" />
+          <Property Name="Nazwa" Type="nvarchar" MaxLength="120" />
+          <Property Name="kod" Type="nvarchar" MaxLength="20" />
+          <Property Name="Vat" Type="nvarchar" MaxLength="7" />
+          <Property Name="Jm" Type="nvarchar" MaxLength="7" />
+          <Property Name="Asortyment" Type="nvarchar" MaxLength="120" />
+          <Property Name="Sww" Type="nvarchar" MaxLength="30" />
+          <Property Name="PKWiU" Type="nvarchar" MaxLength="30" />
+          <Property Name="Ilosc" Type="nvarchar" MaxLength="10" />
+          <Property Name="Cena" Type="nvarchar" MaxLength="10" />
+          <Property Name="Wartosc" Type="nvarchar" MaxLength="10" />
+          <Property Name="IleWOpak" Type="nvarchar" MaxLength="10" />
+          <Property Name="CenaSp" Type="nvarchar" MaxLength="10" />
+          <Property Name="status" Type="nvarchar" MaxLength="1" />
+          <Property Name="complete" Type="bit" />
+        </EntityType>
+        <EntityType Name="fediend">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NrDok" Type="nvarchar" MaxLength="30" />
+          <Property Name="Vat" Type="nvarchar" MaxLength="20" />
+          <Property Name="SumaNet" Type="nvarchar" MaxLength="20" />
+          <Property Name="SumaVat" Type="nvarchar" MaxLength="20" />
+          <Property Name="status" Type="nvarchar" MaxLength="20" />
+          <Property Name="complete" Type="bit" />
+        </EntityType>
+        <EntityType Name="fedihead">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FileName" Type="nvarchar" MaxLength="40" />
+          <Property Name="TypPolskichLiter" Type="nvarchar" MaxLength="20" />
+          <Property Name="TypDok" Type="nvarchar" MaxLength="20" />
+          <Property Name="NrDok" Type="nvarchar" MaxLength="30" />
+          <Property Name="Data" Type="nvarchar" MaxLength="30" />
+          <Property Name="DataRealizacji" Type="nvarchar" MaxLength="30" />
+          <Property Name="Magazyn" Type="nvarchar" MaxLength="30" />
+          <Property Name="SposobPlatn" Type="nvarchar" MaxLength="10" />
+          <Property Name="TerminPlatn" Type="nvarchar" MaxLength="10" />
+          <Property Name="IndeksCentralny" Type="nvarchar" MaxLength="10" />
+          <Property Name="NazwaWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="AdresWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="KodWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="MiastoWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="UlicaWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="NIPWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="BankWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="KontoWystawcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="TelefonWystawcy" Type="nvarchar" MaxLength="30" />
+          <Property Name="NrWystawcyWSieciSklepow" Type="nvarchar" MaxLength="20" />
+          <Property Name="NazwaOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="AdresOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="KodOdbiorcy" Type="nvarchar" MaxLength="20" />
+          <Property Name="MiastoOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="UlicaOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="NIPOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="BankOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="KontoOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="TelefonOdbiorcy" Type="nvarchar" MaxLength="120" />
+          <Property Name="NrOdbiorcyWSieciSklepow" Type="nvarchar" MaxLength="20" />
+          <Property Name="DoZaplaty" Type="nvarchar" MaxLength="20" />
+          <Property Name="status" Type="nvarchar" MaxLength="20" />
+          <Property Name="complete" Type="bit" />
+          <Property Name="device" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="magazyn">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nazwa" Type="nvarchar" MaxLength="20" />
+          <Property Name="MagId" Type="int" />
+        </EntityType>
+        <EntityType Name="opcje">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="transfer" Type="nvarchar" MaxLength="20" />
+          <Property Name="com" Type="nvarchar" MaxLength="20" />
+          <Property Name="ip" Type="nvarchar" MaxLength="20" />
+          <Property Name="ufile" Type="nvarchar" MaxLength="120" />
+          <Property Name="dfile" Type="nvarchar" MaxLength="120" />
+          <Property Name="bdll" Type="nvarchar" MaxLength="50" />
+          <Property Name="bflag" Type="bit" />
+          <Property Name="ipflag" Type="bit" />
+          <Property Name="port" Type="int" />
+          <Property Name="skaner" Type="nvarchar" MaxLength="120" />
+          <Property Name="serverpcm" Type="nvarchar" MaxLength="20" />
+          <Property Name="loginpcm" Type="nvarchar" MaxLength="20" />
+          <Property Name="passwdpcm" Type="nvarchar" MaxLength="20" />
+          <Property Name="bazapcm" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="stany">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="kod" Type="nvarchar" MaxLength="15" />
+          <Property Name="stan" Type="numeric" Precision="10" Scale="3" />
+          <Property Name="MagId" Type="int" />
+          <Property Name="Nazwa" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <!--Errors Found During Generation:
+            warning 6013: The table/view 'dane' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+            
+            <EntityType Name="dane">
+              <Property Name="typ" Type="nvarchar" MaxLength="7" />
+              <Property Name="kod" Type="nvarchar" MaxLength="15" />
+              <Property Name="nazwa" Type="nvarchar" MaxLength="40" />
+              <Property Name="stan" Type="nvarchar" MaxLength="10" />
+              <Property Name="cenazk" Type="nvarchar" MaxLength="10" />
+              <Property Name="cenasp" Type="nvarchar" MaxLength="10" />
+              <Property Name="vat" Type="nvarchar" MaxLength="5" />
+              <Property Name="devstat" Type="nvarchar" MaxLength="10" />
+              <Property Name="bad_cena" Type="bit" />
+              <Property Name="bad_stan" Type="bit" />
+              <Property Name="cenapolka" Type="numeric" Precision="6" Scale="3" />
+              <Property Name="zliczono" Type="numeric" Precision="10" Scale="3" />
+              <Property Name="datazmian" Type="datetime" />
+            </EntityType>
+            Errors Found During Generation:
+            warning 6013: The table/view 'devdane' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+            
+            <EntityType Name="devdane">
+              <Property Name="typ" Type="nvarchar" MaxLength="7" />
+              <Property Name="kod" Type="nvarchar" MaxLength="15" />
+              <Property Name="nazwa" Type="nvarchar" MaxLength="100" />
+              <Property Name="stan" Type="nvarchar" MaxLength="10" />
+              <Property Name="cenazk" Type="nvarchar" MaxLength="20" />
+              <Property Name="cenasp" Type="nvarchar" MaxLength="20" />
+              <Property Name="vat" Type="nvarchar" MaxLength="5" />
+              <Property Name="device" Type="nvarchar" MaxLength="20" />
+              <Property Name="devstat" Type="nvarchar" MaxLength="10" />
+            </EntityType>
+            Errors Found During Generation:
+            warning 6013: The table/view 'wynikispr' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+            
+            <EntityType Name="wynikispr">
+              <Property Name="typ" Type="nvarchar" MaxLength="7" />
+              <Property Name="kod" Type="nvarchar" MaxLength="15" />
+              <Property Name="nazwa" Type="nvarchar" MaxLength="100" />
+              <Property Name="stan" Type="nvarchar" MaxLength="10" />
+              <Property Name="cenazk" Type="nvarchar" MaxLength="20" />
+              <Property Name="cenasp" Type="nvarchar" MaxLength="20" />
+              <Property Name="vat" Type="nvarchar" MaxLength="5" />
+              <Property Name="devstat" Type="nvarchar" MaxLength="20" />
+              <Property Name="bad_cena" Type="bit" />
+              <Property Name="bad_stan" Type="bit" />
+              <Property Name="cenapolka" Type="numeric" Precision="10" Scale="3" />
+              <Property Name="zliczono" Type="numeric" Precision="10" Scale="3" />
+            </EntityType>-->
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BazaModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="BazaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="bufor" EntityType="BazaModel.bufor" />
+          <EntitySet Name="dok" EntityType="BazaModel.dok" />
+          <EntitySet Name="edibody" EntityType="BazaModel.edibody" />
+          <EntitySet Name="ediend" EntityType="BazaModel.ediend" />
+          <EntitySet Name="edihead" EntityType="BazaModel.edihead" />
+          <EntitySet Name="fedibody" EntityType="BazaModel.fedibody" />
+          <EntitySet Name="fediend" EntityType="BazaModel.fediend" />
+          <EntitySet Name="fedihead" EntityType="BazaModel.fedihead" />
+          <EntitySet Name="magazyn" EntityType="BazaModel.magazyn" />
+          <EntitySet Name="opcje" EntityType="BazaModel.opcje" />
+          <EntitySet Name="stany" EntityType="BazaModel.stany" />
+        </EntityContainer>
+        <EntityType Name="bufor">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="dokid" Type="Int32" />
+          <Property Name="kod" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+          <Property Name="nazwa" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="cenazk" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="ilosc" Type="Decimal" Precision="10" Scale="3" />
+          <Property Name="stan" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="cenasp" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="vat" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="dok">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nazwadok" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="typ" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="data" Type="DateTime" Precision="3" />
+          <Property Name="device" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="edibody">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NrDok" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="Nazwa" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="kod" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="Vat" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+          <Property Name="Jm" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+          <Property Name="Asortyment" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="Sww" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="PKWiU" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="Ilosc" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="Cena" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="Wartosc" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="IleWOpak" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="CenaSp" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="status" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="complete" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="ediend">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NrDok" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="Vat" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="SumaNet" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="SumaVat" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="status" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="complete" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="edihead">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FileName" Type="String" MaxLength="40" Unicode="true" FixedLength="false" />
+          <Property Name="TypPolskichLiter" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="TypDok" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="NrDok" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="Data" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="DataRealizacji" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="Magazyn" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="SposobPlatn" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="TerminPlatn" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="IndeksCentralny" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="NazwaWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="AdresWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="KodWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="MiastoWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="UlicaWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="NIPWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="BankWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="KontoWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="TelefonWystawcy" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="NrWystawcyWSieciSklepow" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="NazwaOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="AdresOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="KodOdbiorcy" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="MiastoOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="UlicaOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="NIPOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="BankOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="KontoOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="TelefonOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="NrOdbiorcyWSieciSklepow" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="DoZaplaty" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="status" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="complete" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="fedibody">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NrDok" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="Nazwa" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="kod" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="Vat" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+          <Property Name="Jm" Type="String" MaxLength="7" Unicode="true" FixedLength="false" />
+          <Property Name="Asortyment" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="Sww" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="PKWiU" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="Ilosc" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="Cena" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="Wartosc" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="IleWOpak" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="CenaSp" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="status" Type="String" MaxLength="1" Unicode="true" FixedLength="false" />
+          <Property Name="complete" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="fediend">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NrDok" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="Vat" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="SumaNet" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="SumaVat" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="status" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="complete" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="fedihead">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FileName" Type="String" MaxLength="40" Unicode="true" FixedLength="false" />
+          <Property Name="TypPolskichLiter" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="TypDok" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="NrDok" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="Data" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="DataRealizacji" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="Magazyn" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="SposobPlatn" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="TerminPlatn" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="IndeksCentralny" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="NazwaWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="AdresWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="KodWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="MiastoWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="UlicaWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="NIPWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="BankWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="KontoWystawcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="TelefonWystawcy" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+          <Property Name="NrWystawcyWSieciSklepow" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="NazwaOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="AdresOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="KodOdbiorcy" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="MiastoOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="UlicaOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="NIPOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="BankOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="KontoOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="TelefonOdbiorcy" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="NrOdbiorcyWSieciSklepow" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="DoZaplaty" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="status" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="complete" Type="Boolean" />
+          <Property Name="device" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="magazyn">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nazwa" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="MagId" Type="Int32" />
+        </EntityType>
+        <EntityType Name="opcje">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="transfer" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="com" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="ip" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="ufile" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="dfile" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="bdll" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="bflag" Type="Boolean" />
+          <Property Name="ipflag" Type="Boolean" />
+          <Property Name="port" Type="Int32" />
+          <Property Name="skaner" Type="String" MaxLength="120" Unicode="true" FixedLength="false" />
+          <Property Name="serverpcm" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="loginpcm" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="passwdpcm" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+          <Property Name="bazapcm" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="stany">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="kod" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+          <Property Name="stan" Type="Decimal" Precision="10" Scale="3" />
+          <Property Name="MagId" Type="Int32" />
+          <Property Name="Nazwa" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BazaModelStoreContainer" CdmEntityContainer="BazaEntities">
+          <EntitySetMapping Name="bufor">
+            <EntityTypeMapping TypeName="BazaModel.bufor">
+              <MappingFragment StoreEntitySet="bufor">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="dokid" ColumnName="dokid" />
+                <ScalarProperty Name="kod" ColumnName="kod" />
+                <ScalarProperty Name="nazwa" ColumnName="nazwa" />
+                <ScalarProperty Name="cenazk" ColumnName="cenazk" />
+                <ScalarProperty Name="ilosc" ColumnName="ilosc" />
+                <ScalarProperty Name="stan" ColumnName="stan" />
+                <ScalarProperty Name="cenasp" ColumnName="cenasp" />
+                <ScalarProperty Name="vat" ColumnName="vat" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dok">
+            <EntityTypeMapping TypeName="BazaModel.dok">
+              <MappingFragment StoreEntitySet="dok">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nazwadok" ColumnName="nazwadok" />
+                <ScalarProperty Name="typ" ColumnName="typ" />
+                <ScalarProperty Name="data" ColumnName="data" />
+                <ScalarProperty Name="device" ColumnName="device" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="edibody">
+            <EntityTypeMapping TypeName="BazaModel.edibody">
+              <MappingFragment StoreEntitySet="edibody">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="NrDok" ColumnName="NrDok" />
+                <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+                <ScalarProperty Name="kod" ColumnName="kod" />
+                <ScalarProperty Name="Vat" ColumnName="Vat" />
+                <ScalarProperty Name="Jm" ColumnName="Jm" />
+                <ScalarProperty Name="Asortyment" ColumnName="Asortyment" />
+                <ScalarProperty Name="Sww" ColumnName="Sww" />
+                <ScalarProperty Name="PKWiU" ColumnName="PKWiU" />
+                <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+                <ScalarProperty Name="Cena" ColumnName="Cena" />
+                <ScalarProperty Name="Wartosc" ColumnName="Wartosc" />
+                <ScalarProperty Name="IleWOpak" ColumnName="IleWOpak" />
+                <ScalarProperty Name="CenaSp" ColumnName="CenaSp" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="complete" ColumnName="complete" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ediend">
+            <EntityTypeMapping TypeName="BazaModel.ediend">
+              <MappingFragment StoreEntitySet="ediend">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="NrDok" ColumnName="NrDok" />
+                <ScalarProperty Name="Vat" ColumnName="Vat" />
+                <ScalarProperty Name="SumaNet" ColumnName="SumaNet" />
+                <ScalarProperty Name="SumaVat" ColumnName="SumaVat" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="complete" ColumnName="complete" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="edihead">
+            <EntityTypeMapping TypeName="BazaModel.edihead">
+              <MappingFragment StoreEntitySet="edihead">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="FileName" ColumnName="FileName" />
+                <ScalarProperty Name="TypPolskichLiter" ColumnName="TypPolskichLiter" />
+                <ScalarProperty Name="TypDok" ColumnName="TypDok" />
+                <ScalarProperty Name="NrDok" ColumnName="NrDok" />
+                <ScalarProperty Name="Data" ColumnName="Data" />
+                <ScalarProperty Name="DataRealizacji" ColumnName="DataRealizacji" />
+                <ScalarProperty Name="Magazyn" ColumnName="Magazyn" />
+                <ScalarProperty Name="SposobPlatn" ColumnName="SposobPlatn" />
+                <ScalarProperty Name="TerminPlatn" ColumnName="TerminPlatn" />
+                <ScalarProperty Name="IndeksCentralny" ColumnName="IndeksCentralny" />
+                <ScalarProperty Name="NazwaWystawcy" ColumnName="NazwaWystawcy" />
+                <ScalarProperty Name="AdresWystawcy" ColumnName="AdresWystawcy" />
+                <ScalarProperty Name="KodWystawcy" ColumnName="KodWystawcy" />
+                <ScalarProperty Name="MiastoWystawcy" ColumnName="MiastoWystawcy" />
+                <ScalarProperty Name="UlicaWystawcy" ColumnName="UlicaWystawcy" />
+                <ScalarProperty Name="NIPWystawcy" ColumnName="NIPWystawcy" />
+                <ScalarProperty Name="BankWystawcy" ColumnName="BankWystawcy" />
+                <ScalarProperty Name="KontoWystawcy" ColumnName="KontoWystawcy" />
+                <ScalarProperty Name="TelefonWystawcy" ColumnName="TelefonWystawcy" />
+                <ScalarProperty Name="NrWystawcyWSieciSklepow" ColumnName="NrWystawcyWSieciSklepow" />
+                <ScalarProperty Name="NazwaOdbiorcy" ColumnName="NazwaOdbiorcy" />
+                <ScalarProperty Name="AdresOdbiorcy" ColumnName="AdresOdbiorcy" />
+                <ScalarProperty Name="KodOdbiorcy" ColumnName="KodOdbiorcy" />
+                <ScalarProperty Name="MiastoOdbiorcy" ColumnName="MiastoOdbiorcy" />
+                <ScalarProperty Name="UlicaOdbiorcy" ColumnName="UlicaOdbiorcy" />
+                <ScalarProperty Name="NIPOdbiorcy" ColumnName="NIPOdbiorcy" />
+                <ScalarProperty Name="BankOdbiorcy" ColumnName="BankOdbiorcy" />
+                <ScalarProperty Name="KontoOdbiorcy" ColumnName="KontoOdbiorcy" />
+                <ScalarProperty Name="TelefonOdbiorcy" ColumnName="TelefonOdbiorcy" />
+                <ScalarProperty Name="NrOdbiorcyWSieciSklepow" ColumnName="NrOdbiorcyWSieciSklepow" />
+                <ScalarProperty Name="DoZaplaty" ColumnName="DoZaplaty" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="complete" ColumnName="complete" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="fedibody">
+            <EntityTypeMapping TypeName="BazaModel.fedibody">
+              <MappingFragment StoreEntitySet="fedibody">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="NrDok" ColumnName="NrDok" />
+                <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+                <ScalarProperty Name="kod" ColumnName="kod" />
+                <ScalarProperty Name="Vat" ColumnName="Vat" />
+                <ScalarProperty Name="Jm" ColumnName="Jm" />
+                <ScalarProperty Name="Asortyment" ColumnName="Asortyment" />
+                <ScalarProperty Name="Sww" ColumnName="Sww" />
+                <ScalarProperty Name="PKWiU" ColumnName="PKWiU" />
+                <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+                <ScalarProperty Name="Cena" ColumnName="Cena" />
+                <ScalarProperty Name="Wartosc" ColumnName="Wartosc" />
+                <ScalarProperty Name="IleWOpak" ColumnName="IleWOpak" />
+                <ScalarProperty Name="CenaSp" ColumnName="CenaSp" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="complete" ColumnName="complete" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="fediend">
+            <EntityTypeMapping TypeName="BazaModel.fediend">
+              <MappingFragment StoreEntitySet="fediend">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="NrDok" ColumnName="NrDok" />
+                <ScalarProperty Name="Vat" ColumnName="Vat" />
+                <ScalarProperty Name="SumaNet" ColumnName="SumaNet" />
+                <ScalarProperty Name="SumaVat" ColumnName="SumaVat" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="complete" ColumnName="complete" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="fedihead">
+            <EntityTypeMapping TypeName="BazaModel.fedihead">
+              <MappingFragment StoreEntitySet="fedihead">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="FileName" ColumnName="FileName" />
+                <ScalarProperty Name="TypPolskichLiter" ColumnName="TypPolskichLiter" />
+                <ScalarProperty Name="TypDok" ColumnName="TypDok" />
+                <ScalarProperty Name="NrDok" ColumnName="NrDok" />
+                <ScalarProperty Name="Data" ColumnName="Data" />
+                <ScalarProperty Name="DataRealizacji" ColumnName="DataRealizacji" />
+                <ScalarProperty Name="Magazyn" ColumnName="Magazyn" />
+                <ScalarProperty Name="SposobPlatn" ColumnName="SposobPlatn" />
+                <ScalarProperty Name="TerminPlatn" ColumnName="TerminPlatn" />
+                <ScalarProperty Name="IndeksCentralny" ColumnName="IndeksCentralny" />
+                <ScalarProperty Name="NazwaWystawcy" ColumnName="NazwaWystawcy" />
+                <ScalarProperty Name="AdresWystawcy" ColumnName="AdresWystawcy" />
+                <ScalarProperty Name="KodWystawcy" ColumnName="KodWystawcy" />
+                <ScalarProperty Name="MiastoWystawcy" ColumnName="MiastoWystawcy" />
+                <ScalarProperty Name="UlicaWystawcy" ColumnName="UlicaWystawcy" />
+                <ScalarProperty Name="NIPWystawcy" ColumnName="NIPWystawcy" />
+                <ScalarProperty Name="BankWystawcy" ColumnName="BankWystawcy" />
+                <ScalarProperty Name="KontoWystawcy" ColumnName="KontoWystawcy" />
+                <ScalarProperty Name="TelefonWystawcy" ColumnName="TelefonWystawcy" />
+                <ScalarProperty Name="NrWystawcyWSieciSklepow" ColumnName="NrWystawcyWSieciSklepow" />
+                <ScalarProperty Name="NazwaOdbiorcy" ColumnName="NazwaOdbiorcy" />
+                <ScalarProperty Name="AdresOdbiorcy" ColumnName="AdresOdbiorcy" />
+                <ScalarProperty Name="KodOdbiorcy" ColumnName="KodOdbiorcy" />
+                <ScalarProperty Name="MiastoOdbiorcy" ColumnName="MiastoOdbiorcy" />
+                <ScalarProperty Name="UlicaOdbiorcy" ColumnName="UlicaOdbiorcy" />
+                <ScalarProperty Name="NIPOdbiorcy" ColumnName="NIPOdbiorcy" />
+                <ScalarProperty Name="BankOdbiorcy" ColumnName="BankOdbiorcy" />
+                <ScalarProperty Name="KontoOdbiorcy" ColumnName="KontoOdbiorcy" />
+                <ScalarProperty Name="TelefonOdbiorcy" ColumnName="TelefonOdbiorcy" />
+                <ScalarProperty Name="NrOdbiorcyWSieciSklepow" ColumnName="NrOdbiorcyWSieciSklepow" />
+                <ScalarProperty Name="DoZaplaty" ColumnName="DoZaplaty" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="complete" ColumnName="complete" />
+                <ScalarProperty Name="device" ColumnName="device" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="magazyn">
+            <EntityTypeMapping TypeName="BazaModel.magazyn">
+              <MappingFragment StoreEntitySet="magazyn">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+                <ScalarProperty Name="MagId" ColumnName="MagId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="opcje">
+            <EntityTypeMapping TypeName="BazaModel.opcje">
+              <MappingFragment StoreEntitySet="opcje">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="transfer" ColumnName="transfer" />
+                <ScalarProperty Name="com" ColumnName="com" />
+                <ScalarProperty Name="ip" ColumnName="ip" />
+                <ScalarProperty Name="ufile" ColumnName="ufile" />
+                <ScalarProperty Name="dfile" ColumnName="dfile" />
+                <ScalarProperty Name="bdll" ColumnName="bdll" />
+                <ScalarProperty Name="bflag" ColumnName="bflag" />
+                <ScalarProperty Name="ipflag" ColumnName="ipflag" />
+                <ScalarProperty Name="port" ColumnName="port" />
+                <ScalarProperty Name="skaner" ColumnName="skaner" />
+                <ScalarProperty Name="serverpcm" ColumnName="serverpcm" />
+                <ScalarProperty Name="loginpcm" ColumnName="loginpcm" />
+                <ScalarProperty Name="passwdpcm" ColumnName="passwdpcm" />
+                <ScalarProperty Name="bazapcm" ColumnName="bazapcm" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="stany">
+            <EntityTypeMapping TypeName="BazaModel.stany">
+              <MappingFragment StoreEntitySet="stany">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="kod" ColumnName="kod" />
+                <ScalarProperty Name="stan" ColumnName="stan" />
+                <ScalarProperty Name="MagId" ColumnName="MagId" />
+                <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

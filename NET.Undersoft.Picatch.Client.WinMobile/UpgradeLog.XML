@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SmartDeviceApplication2">
+</Property><Property Name="Solution File" Value="C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\SmartDeviceApplication2.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\SmartDeviceApplication2.suo">
+</Property><Property Name="Date" Value="30 września 2014">
+</Property><Property Name="Time" Value="03:00">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SmartDeviceApplication2.sln" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\SmartDeviceApplication2.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SmartDeviceApplication2.suo" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\SmartDeviceApplication2.suo">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="SmartDeviceApplication2.csdproj" Description="Project file successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\SmartDeviceApplication2.csdproj">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="SmartDeviceApplication2.csdproj.user" Description="Project user file successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\SmartDeviceApplication2.csdproj.user">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="details.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\details.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form1.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form10.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form10.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form11.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form11.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form12.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form12.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form13.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form13.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form14.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form14.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form15.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form15.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form16.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form16.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form17.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form17.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form18.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form18.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form19.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form19.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form2.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form2.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form20.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form20.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form3.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form3.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form4.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form4.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form5.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form5.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form6.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form6.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form7.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form7.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form8.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form8.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form9.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form9.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Info.cs" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Info.cs">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="picatch.ico" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\picatch.ico">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="picatchimage.ico" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\picatchimage.ico">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="picatchimage2.ico" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\picatchimage2.ico">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="details.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\details.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form1.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form10.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form10.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form11.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form11.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form12.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form12.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form13.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form13.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form14.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form14.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form15.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form15.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form16.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form16.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form17.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form17.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form18.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form18.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form19.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form19.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form2.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form2.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form20.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form20.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form3.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form3.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form4.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form4.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form5.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form5.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form6.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form6.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form7.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form7.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form8.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form8.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form9.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Form9.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Info.resx" Description="File successfully backed up as C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\Backup\Info.resx">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="SmartDeviceApplication2.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="SmartDeviceApplication2.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SmartDeviceApplication2.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SmartDeviceApplication2.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="details.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="details.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form1.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form1.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form10.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form10.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form11.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form11.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form12.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form12.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form13.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form13.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form14.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form14.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form15.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form15.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form16.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form16.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form17.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form17.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form18.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form18.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form19.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form19.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form2.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form2.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form20.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form20.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form3.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form3.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form4.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form4.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form5.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form5.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form6.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form6.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form7.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form7.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form8.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form8.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form9.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form9.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Info.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Info.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="SmartDeviceApplication2.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="SmartDeviceApplication2.csproj" Description="References to a previous version of the SQL Server Compact provider were updated.">
+</Event></UpgradeLog>

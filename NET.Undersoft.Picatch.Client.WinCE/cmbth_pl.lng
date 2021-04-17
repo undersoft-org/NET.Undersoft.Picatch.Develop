@@ -1,0 +1,289 @@
+0 POSNET_STATUS_OK Brak B³êdu
+1 POSNET_STATUS_OUTOFMEMORY Brak pamiêci
+2 POSNET_STATUS_FRAMETOOSHORT Za krótka ramka
+3 POSNET_STATUS_FRAMINGERROR B³¹d ramki odebranej z kasy
+5 POSNET_STATUS_COULDNOTOPEN Nie mo¿na otworzyc wskazanego urz¹dzenia
+6 POSNET_STATUS_CRCERROR B³¹d CRC w odebranej ramce
+7 POSNET_STATUS_IPCERROR B³¹d utworzenia obiektu IPC (Event)
+8 POSNET_STATUS_COMMERROR B³¹d komunikacji
+9 POSNET_STATUS_USBERROR B³¹d krytyczny USB - urz¹dzenie nie bêdzie funkcjonowa? poprawnie
+10 POSNET_STATUS_FTLIBIMPORTFAIL Nieudany import sterownika FTDI
+11 POSNET_STATUS_COULDNOTSETUPPORT B³¹d ustawienia parametrów otwieranego portu
+12 POSNET_STATUS_COULDNOTOPEN_ACCESSDENIED Nie mo¿na otworzyæ wskazanego urz¹dzenia - port zajêty
+13 POSNET_STATUS_COULDNOTOPEN_FILENOTFOUND Nie mo¿na otworzyæ wskazanego urz¹dzenia - port nie znaleziony
+14 POSNET_STATUS_SETUP_INVALIDBAUD B³êdne parametry portu - baudrate
+15 POSNET_STATUS_SETUP_INVALIDDATA B³êdne parametry portu - databits
+16 POSNET_STATUS_SETUP_INVALIDPARITY B³êdne parametry portu - parity
+17 POSNET_STATUS_SETUP_INVALIDSTOP	 B³êdne parametry portu - stop bits
+18 POSNET_STATUS_SETUP_INVALIDHANDSHAKE B³êdne parametry portu - handshake
+32 POSNET_STATUS_BUSY Urz¹dzenie zajête
+33 POSNET_STATUS_BUSY_LEVER Urz¹dzenie zajête - podniesiona dŸwignia
+34 POSNET_STATUS_BUSY_MECHANISM Urz¹dzenie zajête - B³¹d mechanizmu
+35 POSNET_STATUS_BUSY_COVER Urz¹dzenie zajête - podniesiona pokrywa
+36 POSNET_STATUS_BUSY_PAPER Urz¹dzenie zajête - brak papieru
+37 POSNET_STATUS_BUSY_TEMP Urz¹dzenie zajête - zbyt wysoka temperatura
+38 POSNET_STATUS_BUSY_POWER Urz¹dzenie zajête - chwilowy zanik zasilania
+39 POSNET_STATUS_BUSY_CUTTER Urz¹dzenie zajête - B³¹d obcinacza
+48 POSNET_STATUS_COULDNOTOPEN_WSAEINTR B³¹d sieciowy - przerwane wywo³anie systemowe
+49 POSNET_STATUS_COULDNOTOPEN_WSAEACCES B³¹d sieciowy - brak dostêpu
+50 POSNET_STATUS_COULDNOTOPEN_WSAEINPROGRESS B³¹d sieciowy - operacja w toku
+51 POSNET_STATUS_COULDNOTOPEN_WSAEDESTADDRREQ B³¹d sieciowy - wymagany adres docelowy
+52 POSNET_STATUS_COULDNOTOPEN_WSAEADDRINUSE B³¹d sieciowy - adres w u¿yciu
+53 POSNET_STATUS_COULDNOTOPEN_WSAEADDRNOTAVAIL B³¹d sieciowy - adres nieprawid³owy
+54 POSNET_STATUS_COULDNOTOPEN_WSAENETDOWN B³¹d sieciowy - sieæ jest wy³¹czona
+55 POSNET_STATUS_COULDNOTOPEN_WSAENETUNREACH B³¹d sieciowy - sieæ jest nieosi¹galna
+56 POSNET_STATUS_COULDNOTOPEN_WSAENETRESET B³¹d sieciowy - sieæ roz³¹czy³a po³¹czenie
+57 POSNET_STATUS_COULDNOTOPEN_WSAECONNABORTED B³¹d sieciowy - po³¹czenie zerwane przez aplikacjê
+58 POSNET_STATUS_COULDNOTOPEN_WSAECONNRESET B³¹d sieciowy - strona zdalna zerwa³a po³¹czenie
+59 POSNET_STATUS_COULDNOTOPEN_WSAETIMEDOUT B³¹d sieciowy - up³yn¹³ czas oczekiwania na odpowiedŸ
+60 POSNET_STATUS_COULDNOTOPEN_WSAECONNREFUSED B³¹d sieciowy - po³¹czenie odrzucone
+61 POSNET_STATUS_COULDNOTOPEN_WSAEHOSTDOWN B³¹d sieciowy - serwer zdalny jest wy³¹czony
+62 POSNET_STATUS_COULDNOTOPEN_WSAEHOSTUNREACH B³¹d sieciowy - serwer zdalny jest nieosiagalny
+63 POSNET_STATUS_COULDNOTOPEN_WSAHOSTNOTFOUND B³¹d sieciowy - serwer nieznaleziony
+64 POSNET_STATUS_COULDNOTOPEN_WSATRYAGAIN B³¹d sieciowy - serwer nieznaleziony, spróbuj ponownie
+65536 POSNET_STATUS_ALREADY_COMPLETED Rozkaz ju¿ wykonany
+65537 POSNET_STATUS_EMPTY Brak danych w kolejce
+65538 POSNET_STATUS_INVALIDVALUE B³êdna wartoœæ
+65539 POSNET_STATUS_TIMEOUT Oczekiwanie zakoñczone up³yniêciem czasu (timeout)
+65540 POSNET_STATUS_PENDING Polecenie w trakcie wykonywania
+65541 POSNET_STATUS_INVALIDCOMMAND B³êdny numer polecenia
+65542 POSNET_STATUS_INVALIDHANDLE B³êdny uchwyt
+65543 POSNET_STATUS_BUFFERTOOSHORT Przekazany bufor znakowy jest za ma³y
+65544 POSNET_STATUS_OUTOFRANGE Poza zakresem licznika
+65545 POSNET_STATUS_INVALIDSPOOLMODE B³êdny tryb kolejkowania
+65546 POSNET_STATUS_CANCELLED Rozkaz anulowany
+65793 POSNET_STATUS_INVALID_PARAM1 B³êdny 1 parametr polecenia
+65794 POSNET_STATUS_INVALID_PARAM2 B³êdny 2 parametr polecenia
+65795 POSNET_STATUS_INVALID_PARAM3 B³êdny 3 parametr polecenia
+65796 POSNET_STATUS_INVALID_PARAM4 B³êdny 4 parametr polecenia
+65797 POSNET_STATUS_INVALID_PARAM5 B³êdny 5 parametr polecenia
+65798 POSNET_STATUS_INVALID_PARAM6 B³êdny 6 parametr polecenia
+65799 POSNET_STATUS_INVALID_PARAM7 B³êdny 7 parametr polecenia
+65800 POSNET_STATUS_INVALID_PARAM8 B³êdny 8 parametr polecenia
+65801 POSNET_STATUS_INVALID_PARAM9 B³êdny 9 parametr polecenia
+65802 POSNET_STATUS_INVALID_PARAM10 B³êdny 10 parametr polecenia
+65803 POSNET_STATUS_INVALID_PARAM11 B³êdny 11 parametr polecenia
+65804 POSNET_STATUS_INVALID_PARAM12 B³êdny 12 parametr polecenia
+65805 POSNET_STATUS_INVALID_PARAM13 B³êdny 13 parametr polecenia
+65806 POSNET_STATUS_INVALID_PARAM14 B³êdny 14 parametr polecenia
+65807 POSNET_STATUS_INVALID_PARAM15 B³êdny 15 parametr polecenia
+65808 POSNET_STATUS_INVALID_PARAM16 B³êdny 16 parametr polecenia
+65809 POSNET_STATUS_INVALID_PARAM17 B³êdny 17 parametr polecenia
+65810 POSNET_STATUS_INVALID_PARAM18 B³êdny 18 parametr polecenia
+65811 POSNET_STATUS_INVALID_PARAM19 B³êdny 19 parametr polecenia
+65812 POSNET_STATUS_INVALID_PARAM20 B³êdny 20 parametr polecenia
+65813 POSNET_STATUS_INVALID_PARAM21 B³êdny 21 parametr polecenia
+65814 POSNET_STATUS_INVALID_PARAM22 B³êdny 22 parametr polecenia
+4390922 ERR_CANCEL B³¹d nietypowy - rezygnacja, przerwanie funkcji
+4390962 ERR_UNKN B³¹d wykonywania operacji przez kasê.
+4390963 ERR_ASSERT_FM B³¹d wykonywania operacji przez kasê.
+4390964 ERR_ASSERT_DB B³¹d wykonywania operacji przez kasê.
+4390965 ERR_ASSERT_SALE B³¹d wykonywania operacji przez kasê.
+4390966 ERR_ASSERT_UI B³¹d wykonywania operacji przez kasê.
+4390967 ERR_ASSERT_CFG B³¹d wykonywania operacji przez kasê.
+4390968 ERR_ASSERT_CM B³¹d wykonywania operacji przez kasê.
+4391235 ERR_OPER_BLOCKED Funkcja zablokowana w konfiguracji
+4391272 ERR_SERVICE_SWITCH_FOUND znaleziono zworê serwisow¹
+4391273 ERR_SERVICE_SWITCH_NOT_FOUND nie znaleziono zwory
+4391274 ERR_SERVICE_KEY_DATA b³¹d weryfikacji danych klucza
+4391275 ERR_SERVICE_KEY_TIMEOUT up³yn¹³ czas na odpowiedŸ od klucza
+4391294 ERR_RD_ZERO próba wykonania raportu zerowego
+4391295 ERR_RD_NOT_PRINTED Brak raportu dobowego.
+4391296 ERR_FM_NO_REC Brak rekordu w pamiêci.
+4391312 ERR_WRONG_VALUE b³êdna wartoœæ
+4391372 ERR_CLOCK_RTC_FSK b³¹d zegara w trybie fiskalnym
+4391373 ERR_CLOCK_RTC_NFSK b³¹d zegara w trybie niefiskalnym
+4391392 ERR_AUTH_AUTHORIZED drukarka ju¿ autoryzowana, bezterminowo
+4391393 ERR_AUTH_NOT_STARTED nie rozpoczêto jeszcze autoryzacji
+4391394 ERR_AUTH_WAS_ADDED kod ju¿ wprowadzony
+4391395 ERR_AUTH_DAY_CNT próba wprowadzenia b³êdnych wartoœci
+4391396 ERR_AUTH_BLOCKED min¹³ czas pracy kasy, sprzeda¿ zablokowana
+4391397 ERR_AUTH_BAD_CODE b³êdny kod autoryzacji
+4391398 ERR_AUTH_TOO_MANY_WRONG_CODES Blokada autoryzacji. WprowadŸ kod z klawiatury.
+4391412 ERR_STAT_MIN_OVF przepe³nienie statystyki minimalnej
+4391413 ERR_STAT_MAX_OVF przepe³nienie statystyki maksymalnej
+4391414 ERR_CASH_IN_MAX_OVF Przepe³nienie stanu kasy
+4391415 ERR_CASH_OUT_BELOW_0 Wartoœæ stanu kasy po wyp³acie staje siê ujemna (przyjmuje siê stan zerowy kasy)
+4391612 ERR_INVALID_IP_ADDR b³êdny adres IP
+4391613 ERR_INVALID_TONE_NUMBER b³¹d numeru tonu
+4391614 ERR_ILLEGAL_DRAWER_IMPULSE_LEN b³¹d d³ugoœci impulsu szuflady
+4391615 ERR_ILLEGAL_VAT_RATE b³¹d stawki VAT
+4391616 ERR_INVALID_LOGOUT_TIME b³¹d czasu wylogowania
+4391617 ERR_INVALID_SLEEP_TIME b³¹d czasu uœpienia
+4391618 ERR_INVALID_TURNOFF_TIME b³¹d czasu wy³¹czenia
+4391625 ERR_CONFIG_SET B³êdne parametry konfiguracji
+4391626 ERR_ILLEGAL_DSP_CONTRAST b³êdna wartoœæ kontrastu wyœwietlacza
+4391627 ERR_ILLEGAL_DSP_LUMIN b³êdna wartoœæ podœwietlenia wyœwietlacza
+4391628 ERR_ILLEGAL_DSP_OFF_DELAY b³êdna wartoœæ czasu zaniku podœwietlenia
+4391629 ERR_LINE_TOO_LONG za d³uga linia nag³ówka albo stopki
+4391630 ERR_ILLEGAL_COMM_CFG b³êdna konfiguracja komunikacji
+4391631 ERR_ILLEGAL_PROTOCOL_CFG b³êdna konfiguracja protoko³u kom.
+4391632 ERR_ILLEGAL_PORT b³êdny identyfikator portu
+4391633 ERR_ILLEGAL_INFO_TXT_NUM b³êdny numer tekstu reklamowego
+4391634 ERR_ILLEGAL_TIME_DIFF podany czas wychodzi poza wymagany zakres
+4391635 ERR_ILLEGAL_TIME podana data/czas niepoprawne
+4391636 ERR_ILLEGAL_HOUR_DIFF inna godzina w ró¿nicach czasowych 0<=>23
+4391638 ERR_ILLEGAL_DSP_LINE_CONTENT b³êdna zawartoœæ tekstu w linii wyœwietlacza
+4391639 ERR_ILLEGAL_DSP_SCROLL_VALUE b³êdna wartoœæ dla przewijania na wyœwietlaczu
+4391640 ERR_ILLEGAL_PORT_CFG b³êdna konfiguracja portu
+4391650 ERR_ETH_CONFIG Nieprawid³owa konfiguracja Ethernetu
+4391651 ERR_ILLEGAL_DSP_ID Nieprawid³owy typ wyœwietlacza
+4391652 ERR_ILLEGAL_DSP_ID_FOR_OFF_DELAY Dla tego typu wyœwietlacza nie mo¿na ustawiæ czasu zaniku podœwietlenia
+4391732 ERR_TEST negatywny wynik testu
+4391733 ERR_TEST_NO_CONF Brak testowanej opcji w konfiguracji
+4391769 ERR_DF_DB_NO_MEM brak pamiêci na inicjalizacjê bazy drukarkowej
+4391912 ERR_FATAL_FM b³¹d fatalny modu³u fiskalnego.
+4391913 ERR_FM_NCONN wypiêta pamiêæ fiskalna
+4391914 ERR_FM_WRITE b³¹d zapisu
+4391915 ERR_FM_UNKN b³¹d nie ujêty w specyfikacji bios
+4391916 ERR_FM_CHKSUM_CNT b³êdne sumy kontrolne
+4391917 ERR_FM_CTRL_BLK_0 b³¹d w pierwszym bloku kontrolnym
+4391918 ERR_FM_CTRL_BLK_1 b³¹d w drugim bloku kontrolnym
+4391919 ERR_FM_BAD_REC_ID b³êdny id rekordu
+4391920 ERR_FM_DATA_ADDR_INIT b³¹d inicjalizacji adresu startowego
+4391921 ERR_FM_DATA_ADDR_INITED adres startowy zainicjalizowany
+4391922 ERR_FM_NU_PRESENT numer unikatowy ju¿ zapisany
+4391923 ERR_FM_NU_NO_PRESENT_FSK brak numeru w trybie fiskalnym
+4391924 ERR_FM_NU_WRITE b³¹d zapisu numeru unikatowego
+4391925 ERR_FM_NU_FULL przepe³nienie numerów unikatowych
+4391926 ERR_FM_NU_LANG b³êdny jêzyk w numerze unikatowym
+4391927 ERR_FM_TIN_CNT wiêcej ni¿ jeden NIP
+4391928 ERR_FM_READ_ONLY_NFSK drukarka w trybie do odczytu bez rekordu fiskalizacji
+4391929 ERR_FM_CLR_RAM_CNT przekroczono liczbê zerowañ RAM
+4391930 ERR_FM_REP_DAY_CNT przekroczono liczbê raportów dobowych
+4391931 ERR_FM_VERIFY_NU b³¹d weryfikacji numeru unikatowego
+4391932 ERR_FM_VERIFY_STAT b³¹d weryfikacji statystyk z RD.
+4391933 ERR_FM_VERIFY_NVR_READ b³¹d odczytu danych z NVR do weryfikacji FM
+4391934 ERR_FM_VERIFY_NVR_WRITE b³¹d zapisu danych z NVR do weryfikacji FM
+4391935 ERR_FM_CTRL_BLK_2 pamiêæ fiskalna jest ma³a 1Mb zamiast 2Mb
+4391936 ERR_FM_DATA_ADDR_NO_INITED nie zainicjalizowany obszar danych w pamiêci fiskalnej
+4391937 ERR_FM_NU_FORMAT b³êdny format numeru unikatowego
+4391938 ERR_FM_REC_BAD_CNT za du¿o b³êdnych bloków w FM
+4391939 ERR_FM_NO_BADBLK_MARKER b³¹d oznaczenia b³êdnego bloku
+4391940 ERR_FM_REC_EMPTY rekord w pamiêci fiskalnej nie istnieje - obszar pusty
+4391941 ERR_FM_REC_DATE rekord w pamiêci fiskalnej z dat¹ póŸniejsz¹ od poprzedniego
+4392862 ERR_TR_TOT_OVR przekroczony zakres totalizerów paragonu.
+4392863 ERR_TR_PF_OVR wp³ata form¹ p³atnoœci przekracza max. wp³atê.
+4392864 ERR_TR_PF_SUM_OVR suma form p³atnoœci przekracza max. wp³atê.
+4392865 ERR_PAYMENT_OVR formy p³atnoœci pokrywaj¹ ju¿ do zap³aty.
+4392866 ERR_TR_CHANGE_OVR wp³ata reszty przekracza max. wp³atê.
+4392867 ERR_TR_CHANGE_SUM_OVR suma form p³atnoœci przekracza max. wp³atê.
+4392868 ERR_TR_TOTAL_OVR przekroczony zakres total.
+4392869 ERR_TR_FISC_OVR przekroczony maksymalny zakres paragonu.
+4392870 ERR_TR_PACK_OVR przekroczony zakres wartoœci opakowañ.
+4392871 ERR_TR_PACK_STORNO_OVR przekroczony zakres wartoœci opakowañ przy stornowaniu.
+4392873 ERR_TR_PF_REST_TOO_BIG wp³ata reszty zbyt du¿a
+4392874 ERR_TR_PF_ZERO wp³ata form¹ p³atnoœci wartoœci 0
+4392892 ERR_TR_DISCNT_BASE_OVR przekroczony zakres kwoty bazowej rabatu/narzutu
+4392893 ERR_TR_DISCNT_AFTER_OVR przekroczony zakres kwoty po rabacie / narzucie
+4392894 ERR_TR_DISCNT_CALC b³¹d obliczania rabatu/narzutu
+4392895 ERR_TR_DISCNT_BASE_NEGATIVE_OR_ZERO wartoœæ bazowa ujemna lub równa 0
+4392896 ERR_TR_DISCNT_ZERO wartoœæ rabatu/narzutu zerowa
+4392897 ERR_TR_DISCNT_AFTER_NEGATIVE_OR_ZERO Wartoœæ po rabacie ujemna lub równa 0
+4392902 ERR_TR_STORNO_NOT_ALLOWED Niedozwolone stornowanie towaru. B³êdny stan transakcji.
+4392903 ERR_TR_DISCNT_NOT_ALLOWED Niedozwolony rabat/narzut. B³êdny stan transakcji.
+4392912 ERR_TR_FLD_VAT b³¹d pola VAT.
+4392914 ERR_NO_HDR brak nag³ówka
+4392915 ERR_HDR zaprogramowany nag³ówek
+4392916 ERR_NO_VAT brak aktywnych stawek VAT.
+4392917 ERR_NO_TRNS_MODE brak trybu transakcji.
+4392918 ERR_TR_FLD_PRICE b³¹d pola cena ( cena <= 0 )
+4392919 ERR_TR_FLD_QUANT b³¹d pola iloœæ ( iloœæ <= 0 )
+4392920 ERR_TR_FLD_TOTAL b³¹d kwoty total
+4392921 ERR_TR_FLD_TOTAL_ZERO b³¹d kwoty total, równa zero
+4392922 ERR_TOT_OVR przekroczony zakres totalizerów dobowych.
+4392933 ERR_RTC_WAS_SET próba ponownego ustawienia zegara.
+4392934 ERR_RTC_DIFF zbyt du¿a ró¿nica dat
+4392935 ERR_RTC_HOUR ró¿nica wiêksza ni¿ godzina w trybie u¿ytkownika w trybie fiskalnym.
+4392936 ERR_RTC_BAD_FORMAT z³y format daty (np. 13 miesi¹c )
+4392937 ERR_RTC_FM_DATE data wczeœniejsza od ostatniego zapisu do modu³u
+4392938 ERR_RTC b³¹d zegara.
+4392939 ERR_VAT_CHNG_CNT przekroczono maksymaln¹ liczbê zmian stawek VAT
+4392940 ERR_VAT_SAME próba zdefiniowana identycznych stawek VAT
+4392941 ERR_VAT_VAL b³êdne wartoœci stawek VAT
+4392942 ERR_VAT_NO_ACTIVE próba zdefiniowania stawek VAT wszystkich nieaktywnych
+4392943 ERR_FLD_TIN b³¹d pola NIP.
+4392944 ERR_FM_ID b³¹d numeru unikatowego pamiêci fiskalnej.
+4392945 ERR_FISC_MODE urz¹dzenie w trybie fiskalnym.
+4392946 ERR_NO_FISC_MODE urz¹dzenie w trybie niefiskalnym.
+4392947 ERR_TOT_NOT_ZERO niezerowe totalizery.
+4392948 ERR_READ_ONLY urz¹dzenie w stanie tylko do odczytu.
+4392949 ERR_NO_READ_ONLY urz¹dzenie nie jest w stanie tylko do odczytu.
+4392950 ERR_TRNS_MODE urz¹dzenie w trybie transakcji.
+4392951 ERR_TOT_ZERO zerowe totalizery.
+4392952 ERR_CURR_CALC b³¹d obliczeñ walut, przepe³nienie przy mno¿eniu lub dzieleniu.
+4392953 ERR_TR_END_VAL_0 próba zakoñczenia pozytywnego paragonu z wartoœci¹ 0
+4392954 ERR_REP_PER_DATE_FORMAT_FROM b³êdy format daty pocz¹tkowej
+4392955 ERR_REP_PER_DATE_FORMAT_TO b³êdy format daty koñcowej
+4392956 ERR_REP_PER_CURR_MONTH próba wykonania raportu miesiêcznego w danym miesi¹cu
+4392957 ERR_REP_PER_DATE_START_GT_CURR data pocz¹tkowa póŸniejsza od bie¿¹cej daty
+4392958 ERR_REP_PER_DATE_END_GT_FISK data koñcowa wczeœniejsza od daty fiskalizacji
+4392959 ERR_REP_PER_NUM_ZERO numer pocz¹tkowy lub koñcowy równy zero
+4392960 ERR_REP_PER_NUM_FROM_GT_END numer pocz¹tkowy wiêkszy od numeru koñcowego
+4392961 ERR_REP_PER_NUM_TOO_BIG numer raportu zbyt du¿y
+4392962 ERR_REP_PER_DATE_END_GT_START data pocz¹tkowa póŸniejsza od daty koñcowej
+4392963 ERR_REP_TXT_NO_MEM brak pamiêci w buforze tekstów.
+4392964 ERR_TR_NO_MEM brak pamiêci w buforze transakcji
+4392966 ERR_TR_END_PAYMENT formy p³atnoœci nie pokrywaj¹ kwoty do zap³aty lub reszty
+4392967 ERR_LINE b³êdna linia
+4392968 ERR_EMPTY_TXT tekst pusty
+4392969 ERR_SIZE przekroczony rozmiar
+4392970 ERR_LINE_CNT b³êdna liczba linii.
+4392972 ERR_TR_BAD_STATE b³êdny stan transakcji
+4392974 ERR_PRN_START jest wydrukowana czêœæ jakiegoœ dokumentu
+4392975 ERR_PAR b³¹d parametru
+4392976 ERR_FTR_NO_HDR brak rozpoczêcia wydruku lub transakcji
+4392979 ERR_PRN_CFG_SET b³¹d ustawieñ konfiguracyjnych wydruków / drukarki
+4392982 ERR_WRONG_MAINTENANCE_TIME Data przegl¹du wczeœniejsza od systemowej
+4393013 ERR_DF_DB_OVR Zape³nienie bazy
+4393014 ERR_DF_DB_VAT_INACTIVE Stawka nieaktywna
+4393015 ERR_DF_DB_VAT_INVALID Nieprawid³owa stawka VAT
+4393016 ERR_DF_DB_NAME B³¹d nazwy
+4393017 ERR_DF_DB_NAME_VAT B³¹d przypisania stawki
+4393018 ERR_DF_DB_LOCKED Zablokowany
+4393019 ERR_DF_DB_NAME_NOT_FOUND Nie znaleziono w bazie drukarkowej
+4393020 ERR_DF_DB_NOT_OVR baza nie jest zape³niona
+4393413 ERR_FORM_ID B³êdny identyfikator raportu
+4393414 ERR_FORM_LINE_NO B³êdny identyfikator linii raportu
+4393415 ERR_FORM_HDR_NO B³êdny identyfikator nag³ówka raportu
+4393416 ERR_FORM_PAR_CNT Zbyt ma³o parametrów raportu
+4393417 ERR_FORM_NOT_STARTED Raport nie rozpoczêty
+4393418 ERR_FORM_STARTED Raport rozpoczêty
+4393419 ERR_FORM_CMD B³êdny identyfikator komendy
+4393433 ERR_DB_REP_PLU_ACTIVE Raport ju¿ rozpoczêty
+4393434 ERR_DB_REP_PLU_NOT_ACTIVE Raport nie rozpoczêty
+4393435 ERR_DB_REP_PLU_VAT_ID B³êdna stawka VAT
+4393444 ERR_FV_COPY_CNT B³êdna liczba kopii faktur
+4393512 ERR_DISCNT_TYPE B³êdny typ rabatu/narzutu
+4393513 ERR_TR_DISCNT_VALUE wartoœæ rabatu/narzutu spoza zakresu
+4393613 ERR_VAT_ID B³¹d identyfikatora stawki podatkowej.
+4393614 ERR_FTRLN_ID B³êdny identyfikator dodatkowej stopki.
+4393615 ERR_FTRLN_CNT Przekroczona liczba dodatkowych stopek.
+4393616 ERR_ACC_LOW Zbyt s³aby akumulator.
+4393617 ERR_PF_TYPE B³êdny identyfikator typu formy p³atnoœci.
+4393713 ERR_DISCNT_VERIFY B³¹d weryfikacji wartoœci rabatu/narzutu
+4393714 ERR_LNTOT_VERIFY B³¹d weryfikacji wartoœci linii sprzeda¿y
+4393715 ERR_PACKTOT_VERIFY B³¹d weryfikacji wartoœci opakowania
+4393716 ERR_CURRTOT_VERIFY B³¹d weryfikacji wartoœci formy p³atnoœci
+4393717 ERR_ENDTOT_VERIFY B³¹d weryfikacji wartoœci fiskalnej
+4393718 ERR_ENDPACKPLUS_VERIFY B³¹d weryfikacji wartoœci opakowañ dodatnich
+4393719 ERR_ENDPACKMINUS_VERIFY B³¹d weryfikacji wartoœci opakowañ ujemnych
+4393720 ERR_ENDPAYMENT_VERIFY B³¹d weryfikacji wartoœci wp³aconych form p³atnoœci
+4393721 ERR_ENDCHANGE_VERIFY B³¹d weryfikacji wartoœci reszt
+4393763 ERR_STORNO_QNT B³¹d stornowania, b³êdna iloœæ
+4393764 ERR_STORNO_AMT B³¹d stornowania, b³êdna wartoœæ
+4456449 PROTO_ERR_CMD_UNKNOWN Nierozpoznana komenda
+4456450 PROTO_ERR_CMD_MANDATORY_FIELDS Brak obowi¹zkowego pola
+4456451 PROTO_ERR_DATA_CONVERSION B³¹d konwersji pola 
+4456452 PROTO_ERR_TOKEN_INVALID B³êdny token
+4456453 PROTO_ERR_CRC_INVALID Z³a suma kontrolna
+4456454 PROTO_ERR_FLD_INVALID Puste pole (kolejno dwa tabulatory)
+4456455 PROTO_ERR_CMD_LENGTH Niew³aœciwa d³ugoœæ nazwy rozkazu
+4456456 PROTO_ERR_TOKEN_LENGTH Niew³aœciwa d³ugoœæ tokena
+4456457 PROTO_ERR_CRC_LENGTH Niew³aœciwa d³ugoœæ sumy kontrolnej
+4456458 PROTO_ERR_DATA_LENGTH Niew³aœciwa d³ugoœæ pola danych
+4456459 PROTO_ERR_INPUT_BUFFER_OVERRUN Zape³niony bufor odbiorczy
+4456460 PROTO_ERR_CMD_IMMEDIATE_FORBIDDEN Nie mo¿na wykonaæ rozkazu w trybie natychmiastowym
+4456461 PROTO_ERR_TOKEN_NOT_FOUND Nie znaleziono rozkazu o podanym tokenie
+4456462 PROTO_ERR_INPUT_QUEUE_FULL Zape³niona kolejka wejœciowa
+4456463 PROTO_ERR_SYNTAX B³¹d budowy ramki

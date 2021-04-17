@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SmartDeviceApplication2">
+</Property><Property Name="Solution File" Value="C:\Users\Denderion\Documents\Visual Studio 2008\PICATCH\SmartDeviceApplication2\SmartDeviceApplication2.sln">
+</Property><Property Name="Date" Value="11 października 2014">
+</Property><Property Name="Time" Value="09:35">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="SmartDeviceApplication2.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="SmartDeviceApplication2.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SmartDeviceApplication2.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SmartDeviceApplication2.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="details.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="details.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form1.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form1.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form10.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form10.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form11.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form11.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form12.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form12.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form13.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form13.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form14.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form14.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form15.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form15.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form16.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form16.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form17.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form17.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form18.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form18.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form19.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form19.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form2.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form2.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form20.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form20.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form3.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form3.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form4.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form4.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form5.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form5.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form6.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form6.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form7.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form7.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form7_1_2.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form7_1_2.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form7_1_2_1.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form7_1_2_1.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form7_1_3.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form7_1_3.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form71.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form71.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form8.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form8.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Form9.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Form9.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="Info.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="SmartDeviceApplication2" Source="Info.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="SmartDeviceApplication2.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SmartDeviceApplication2" Source="SmartDeviceApplication2.csproj" Description="References to a previous version of the SQL Server Compact provider were updated.">
+</Event></UpgradeLog>

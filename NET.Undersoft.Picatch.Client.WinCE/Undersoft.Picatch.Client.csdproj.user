@@ -1,0 +1,55 @@
+<VisualStudioProject>
+    <ECSHARP>
+        <Build>
+            <Settings
+                DeploymentDevice = "Windows CE Emulator"
+                ReferencePath = "C:\Users\Denderion\Documents\Visual Studio Projects\SmartDeviceApplication2\bin\Debug\;C:\Users\Denderion\Documents\Visual Studio Projects\backuP\picatch\bin\Debug\;C:\Users\Denderion\Documents\Visual Studio Projects\backuP\SmartDeviceApplication23\Backup\bin\Debug\;C:\Users\dariu\Documents\Visual Studio Projects\SmartDeviceApplication2\bin\Debug\"
+            >
+                <Platform Name = "Windows CE" />
+                <Config
+                    Name = "Debug|Windows CE"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "false"
+                    SelectedDevice = "Windows CE Emulator"
+                    DeploymentPlatform = "Windows CE"
+                />
+                <Config
+                    Name = "Release|Windows CE"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "false"
+                    SelectedDevice = "Windows CE Emulator"
+                    DeploymentPlatform = "Windows CE"
+                />
+            </Settings>
+        </Build>
+        <OtherProjectSettings
+            CopyProjectDestinationFolder = ""
+            CopyProjectUncPath = ""
+            CopyProjectOption = "0"
+            ProjectView = "ProjectFiles"
+        />
+    </ECSHARP>
+</VisualStudioProject>
+
