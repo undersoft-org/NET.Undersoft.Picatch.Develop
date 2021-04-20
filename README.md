@@ -1,2 +1,2 @@
 # NET.Undersoft.Picatch.Devel
-NET.Undersoft.Picatch.Devel
+Development version of Product Information Catch (Picatch). The repository contains an agent (server) program that handles communication between the warehouse system and data collectors. Agent Picatch supports batch inventories using the Cipherlab and Novitus protocol. The repository also includes client applications warehouse data collector for Windows CE and Windows Mobile systems.
